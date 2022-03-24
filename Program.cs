@@ -19,7 +19,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHealthChecks("/service1/health");
 
-app.UseHttpsRedirection();
+// app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
